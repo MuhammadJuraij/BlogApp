@@ -1,0 +1,167 @@
+a {
+    text-decoration: none;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backtohome {
+    margin: 20px 0;
+}
+
+
+.profile-container {
+    display: flex;
+   justify-content: space-between;
+   /* border: 1px solid rgb(233, 231, 231); */
+   border-radius: 5px;
+   padding:  10px 50px ;
+   /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); */
+}
+.settings i{
+    font-size: 20px;
+}
+
+.Profile-pic img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid rgb(199, 193, 193);
+}
+
+.settings{
+    position: relative;
+    cursor: pointer;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+    left: -40px;
+    top: 20px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.settings:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.details .name{
+    font-size: clamp(16px,1.5vw,24px);
+}
+.details .email{
+    font-size: clamp(13px,1vw,20px);
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+.posts {
+    display: flex;
+}
+
+.userBlogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
+
+.posted {
+    margin: 50px 0;
+}
+
+.posted .head {
+    font-size: clamp(18px,2vw,24px);
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(91, 90, 90);
+}
+
+.bloghead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.bloghead button  {
+    padding: 0 30px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    border: solid 1px gray;
+    background-color: black;
+    color: white;
+    
+}
+.settings .logout{
+    color: red;
+}
+
+.empty-blog{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+
+@media (max-width: 768px) {
+    .userBlogs {
+        grid-template-columns: 1fr;
+    }
+    .Profile-pic img {
+        width: 100px;
+        height: 100px;
+    }
+    .name p{
+        font-size: 14px;
+    }
+    .editAndLogout button {
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+    .editAndLogout{
+        gap: 10px;
+    }
+    .bloghead button  {
+        padding: 0 20px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width:650px){
+  .profile-container{
+    justify-content: center;
+  }
+  .Profile-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .bloghead button  {
+    padding: 0 15px;
+    height: 25px;
+    font-size: 10px;
+}
+}

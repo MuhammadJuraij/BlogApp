@@ -1,0 +1,30 @@
+
+.blogs-container{
+    margin-top:70px;
+    margin-bottom: 50px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr);
+    gap: 40px;
+}
+
+.blog-head {
+  font-size: clamp(18px,1.8vw,22px);
+    font-weight: 500;
+    margin-bottom: 18px;
+    color: rgb(91, 90, 90);
+    text-align: center;
+
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .blogs {
+      grid-template-columns: 1fr;
+    }
+  }
+  

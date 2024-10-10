@@ -1,0 +1,78 @@
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.userimage{
+    display: flex;
+    justify-content: center;
+}
+.userimage img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid gray; 
+}
+form{
+    min-width:  300px;
+    
+    border: 1px solid gray;
+    padding: 30px;
+}
+
+.changepassword{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.data input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 3px;
+}
+
+.input2 input{
+    margin-bottom: 10px;
+}
+
+.changepassword{
+    margin: 5px 0;
+}
+.changepassword p{
+    font-weight: 500;
+}
+
+.submit button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.head p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.changepassword p{
+    color: gray;
+    font-size: 14px;
+}
+label{
+    font-size: 14px;
+}

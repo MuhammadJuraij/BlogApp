@@ -1,0 +1,103 @@
+.blog {
+    /* border: 1px solid gray; */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    /* Slightly deeper shadow */
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 460px;
+}
+
+.profile-pic img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.upload-image {
+    display: flex;
+    justify-content: center;
+
+}
+
+.upload-image img {
+    max-width: 100%;
+    height: 20vw; /* Let the image take the full width of its container */
+    object-fit: contain; /* Ensure the image covers the area without distortion */
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px
+}
+
+.date p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.deletebutton{
+position: relative;
+
+
+}
+.deletebutton i{
+    position: absolute;
+    bottom: 15px;
+    left: 93%;
+    cursor: pointer;
+    color: red;
+    
+}
+
+@media (max-width:1300px){
+    .blog{
+        min-height: 400px;
+    }
+}
+@media (max-width:1024px){
+    .blog{
+        min-height: 370px;
+    }
+}
+
+@media (max-width:768px){
+    .blog{
+        min-height: 330px;
+    }
+}
+@media (max-width:700px){
+    .header p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .profile-pic img {
+        width: 20px;
+        border-radius: 50%;
+    }
+    .profile-name{
+        font-size: 10px;
+    }
+    @media (max-width:768px){
+        .blog{
+            min-height: 250px;
+        }
+    }
+    
+}
+
+
+
+
+
