@@ -6,10 +6,15 @@ This blog app allows users to create accounts, post blogs, and manage their prof
 * Features:-
 
 Account Registration & Login: Users can sign up, log in, and log out securely.
+
 Blog Posting: Authenticated users can create,  delete, and view blogs.
+
 User Profile Management: Users can view their profiles, update account details, and manage their personal blogs.
+
 Home Page: Displays all blogs posted by users.
+
 Responsive Design: Designed for a seamless experience across devices.
+
 Real-Time Updates: Changes in blogs and user profiles are reflected instantly.
 
 
