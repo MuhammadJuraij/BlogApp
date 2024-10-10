@@ -4,6 +4,7 @@ Blog App - MERN Stack
 
 This blog app allows users to create accounts, post blogs, and manage their profiles. It's built using the powerful MongoDB, Express, React, and Node.js (MERN stack) combination, offering a full-stack web experience.
 
+
 🚀 Features
 
 Account Registration & Login: Users can sign up, log in, and log out securely.
@@ -12,6 +13,7 @@ User Profile Management: Users can view their profiles, update account details, 
 Home Page: Displays all blogs posted by users.
 Responsive Design: Designed for a seamless experience across devices.
 Real-Time Updates: Changes in blogs and user profiles are reflected instantly.
+
 
 
 🛠️ Technologies Used
@@ -35,6 +37,7 @@ Other Tools:
 Axios (for API requests)
 Bcrypt.js (for password hashing)
 dotenv (for environment variables)
+
 
 
 💡 Key Functionalities
