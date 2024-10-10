@@ -5,38 +5,38 @@ This blog app allows users to create accounts, post blogs, and manage their prof
 
 * Features:-
 
-Account Registration & Login: Users can sign up, log in, and log out securely.
+-Account Registration & Login: Users can sign up, log in, and log out securely.
 
-Blog Posting: Authenticated users can create,  delete, and view blogs.
+-Blog Posting: Authenticated users can create,  delete, and view blogs.
 
-User Profile Management: Users can view their profiles, update account details, and manage their personal blogs.
+-User Profile Management: Users can view their profiles, update account details, and manage their personal blogs.
 
-Home Page: Displays all blogs posted by users.
+-Home Page: Displays all blogs posted by users.
 
-Responsive Design: Designed for a seamless experience across devices.
+-Responsive Design: Designed for a seamless experience across devices.
 
-Real-Time Updates: Changes in blogs and user profiles are reflected instantly.
+-Real-Time Updates: Changes in blogs and user profiles are reflected instantly.
 
 
 
 * Technologies Used:-
 
-Frontend:
+-Frontend:
 React (for building the user interface)
 React Router (for navigation)
 
-Backend:
+-Backend:
 Node.js (server-side)
 Express (API and routing)
 
-Database:
+-Database:
 MongoDB (data storage)
 Mongoose (for managing MongoDB operations)
 
-Authentication:
+-Authentication:
 JSON Web Tokens (JWT) for secure authentication
 
-Other Tools:
+-Other Tools:
 Axios (for API requests)
 Bcrypt.js (for password hashing)
 dotenv (for environment variables)
@@ -45,11 +45,11 @@ dotenv (for environment variables)
 
 * Key Functionalities:-
 
-Authentication:
+-Authentication:
 Secure user registration and login, with encrypted passwords and JSON Web Token-based authentication.
 
-Blog Creation & Management:
+-Blog Creation & Management:
 Users can post blogs, edit them, and delete blogs. The home page displays all blogs from all users.
 
-Profile Management:
+-Profile Management:
 Users can view and update their profile information, including a list of their posted blogs.
