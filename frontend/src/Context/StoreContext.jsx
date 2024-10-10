@@ -8,7 +8,7 @@ export const storeContext = createContext(null);
 const StoreContextProvider = ({ children }) => {
 
 
-  const url = 'http://localhost:4000';
+  const url = 'https://blogapp-backend-2p5w.onrender.com';
   const [blog, setBlog] = useState([]);
   const [token, setToken] = useState('')
   const [user, setUser] = useState('')
